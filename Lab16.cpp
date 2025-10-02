@@ -22,6 +22,12 @@ class Color {
         setGreen(g);
         setBlue(b);
     }
+    // Partial constructor red and green, blue default to 0.
+    Color(int r, int g){
+        setRed(r);
+        setGreen(g);
+        blue = 0;
+    }
 
     // Setter for red value
     void setRed(int r){
