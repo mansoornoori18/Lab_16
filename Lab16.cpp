@@ -1,5 +1,5 @@
 #include<iostream>  // COMSC-210 | Lab 16 | Mansoor Noori
-#include<iomanip>   // IDE Visual Studio,
+#include<iomanip>   // to use setw // IDE Visual Studio,
 
 using namespace std; // to void using std over and over
 
@@ -82,7 +82,7 @@ int main (){
     color4.setBlue(220);
 
     // partial constructor 
-    Color color5(128, 128);    // default to 0
+    Color color5(128, 128);    //  grey with blue default to 0
 
     // Output all Color objects using print() method
     cout << "Color Values\n";
