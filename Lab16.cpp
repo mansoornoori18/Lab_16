@@ -74,13 +74,15 @@ int main (){
     Color color1(255, 0, 0);     // Red
     Color color2(0, 255, 0);      // Green
     Color color3(0, 0, 255);      // Blue
-    Color color4(128, 128, 128);  // Gray
 
-    // Create a Color object using default constructor, then set values
-    Color color5;
-    color5.setRed(75);
-    color5.setGreen(160);
-    color5.setBlue(220);
+    // using default constructor  and setters
+    Color color4;
+    color4.setRed(75);
+    color4.setGreen(160);
+    color4.setBlue(220);
+
+    // partial constructor 
+    Color color5(128, 128);    // default to 0
 
     // Output all Color objects using print() method
     cout << "Color Values\n";
